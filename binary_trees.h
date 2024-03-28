@@ -78,27 +78,6 @@ heap_t *array_to_heap(int *array, size_t size);
 int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
-/* helper functions */
-int _pow_recursion(int x, int y);
-binary_tree_t *bta_helper(binary_tree_t *root, const binary_tree_t *first,
-			  const binary_tree_t *second);
-void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
-int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
-int btib_helper(const binary_tree_t *tree, int low, int hi);
-bst_t *bst_min_val(bst_t *root);
-int btia_helper(const binary_tree_t *tree, int low, int hi);
-int btib_helper(const binary_tree_t *tree, int min, int max)
-int btih_helper(const binary_tree_t *tree);
-void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
-
-int check_sub_tree_Left(const binary_tree_t *node, int max);
-int check_sub_tree_Right(const binary_tree_t *node, int min);
-
-int successor(bst_t *node);
-int two_children(bst_t *root);
-int remove_type(bst_t *root);
-
-
 
 
 #endif
