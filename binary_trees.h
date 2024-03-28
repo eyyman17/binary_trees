@@ -85,4 +85,7 @@ size_t binary_tree_size(const binary_tree_t *tree);
 
 int btia_helper(const binary_tree_t *tree, int min, int max);
 
+int binary_tree_is_perfect(const binary_tree_t *tree);
+int tree_is_perfect(const binary_tree_t *tree);
+
 #endif
