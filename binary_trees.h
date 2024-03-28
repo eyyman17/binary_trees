@@ -91,6 +91,7 @@ int btib_helper(const binary_tree_t *tree, int min, int max)
 int btih_helper(const binary_tree_t *tree);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 
-
+int check_sub_tree_Left(const binary_tree_t *node, int max);
+int check_sub_tree_Right(const binary_tree_t *node, int min);
 
 #endif
