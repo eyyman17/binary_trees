@@ -94,4 +94,11 @@ void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 int check_sub_tree_Left(const binary_tree_t *node, int max);
 int check_sub_tree_Right(const binary_tree_t *node, int min);
 
+int successor(bst_t *node);
+int two_children(bst_t *root);
+int remove_type(bst_t *root);
+
+
+
+
 #endif
