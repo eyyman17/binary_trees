@@ -83,6 +83,6 @@ int *heap_to_sorted_array(heap_t *heap, size_t *size);
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 size_t binary_tree_size(const binary_tree_t *tree);
 
-int btia_helper(const binary_tree_t *tree, int min, int max)
+int btia_helper(const binary_tree_t *tree, int min, int max);
 
 #endif
